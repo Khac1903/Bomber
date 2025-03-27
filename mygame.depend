@@ -1,0 +1,378 @@
+# depslib dependency file v1.0
+1742795603 source:d:\codeblocks\mygame\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"map.h"
+	"Character.h"
+	"boom.h"
+	"enemy.h"
+	"item.h"
+	"menu.h"
+	"constants.h"
+	<iostream>
+	"collision.h"
+
+1742732079 source:d:\codeblocks\mygame\menu.cpp
+	"menu.h"
+
+1742732079 d:\codeblocks\mygame\menu.h
+	<SDL.h>
+
+1742750687 source:d:\codeblocks\mygame\boom.cpp
+	"boom.h"
+	<cstdlib>
+	<SDL.h>
+	<vector>
+	"map.h"
+	"enemy.h"
+	<iostream>
+	"Character.h"
+
+1742750640 source:d:\codeblocks\mygame\character.cpp
+	<SDL.h>
+	"Character.h"
+	"map.h"
+	<iostream>
+
+1742744935 source:d:\codeblocks\mygame\enemy.cpp
+	"enemy.h"
+	<cstdlib>
+	<ctime>
+	<iostream>
+
+1742746276 source:d:\codeblocks\mygame\item.cpp
+	"item.h"
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	<iostream>
+
+1742724764 source:d:\codeblocks\mygame\map.cpp
+	"Map.h"
+	<queue>
+
+1742723345 d:\codeblocks\mygame\map.h
+	<vector>
+	<SDL.h>
+	"constants.h"
+
+1742746215 d:\codeblocks\mygame\item.h
+	<SDL.h>
+	<vector>
+	"map.h"
+	"Character.h"
+
+1742750089 d:\codeblocks\mygame\boom.h
+	<vector>
+	<SDL.h>
+	"map.h"
+	"enemy.h"
+	"Character.h"
+
+1742744158 d:\codeblocks\mygame\enemy.h
+	<SDL.h>
+	<vector>
+	"map.h"
+	"Character.h"
+
+1742749087 d:\codeblocks\mygame\character.h
+	<SDL.h>
+	<vector>
+	<iostream>
+	"map.h"
+
+1742722988 d:\codeblocks\mygame\constants.h
+
+1742741010 source:d:\codeblocks\mygame\collision.cpp
+	"collision.h"
+	<cmath>
+
+1742741054 d:\codeblocks\mygame\collision.h
+	"Character.h"
+	"boom.h"
+	<vector>
+
+1742978567 source:d:\mygame\boom.cpp
+	"boom.h"
+	"constants.h"
+	<iostream>
+	<SDL_image.h>
+	"music.h"
+	"menu.h"
+	"map.h"
+
+1742978567 d:\mygame\boom.h
+	<vector>
+	<SDL.h>
+	"map.h"
+	"enemy.h"
+	"Character.h"
+	"constants.h"
+
+1742833501 d:\mygame\map.h
+	<vector>
+	<SDL.h>
+	"constants.h"
+
+1742915044 d:\mygame\constants.h
+
+1742956709 d:\mygame\enemy.h
+	<SDL.h>
+	<vector>
+	"map.h"
+	"Character.h"
+
+1742977897 d:\mygame\character.h
+	<SDL.h>
+	<vector>
+	<string>
+	"map.h"
+	"constants.h"
+
+1742969828 source:d:\mygame\character.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"Character.h"
+	"map.h"
+	<iostream>
+	"constants.h"
+
+1742741010 source:d:\mygame\collision.cpp
+	"collision.h"
+	<cmath>
+
+1742741054 d:\mygame\collision.h
+	"Character.h"
+	"boom.h"
+	<vector>
+
+1742956631 source:d:\mygame\enemy.cpp
+	"enemy.h"
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<SDL_image.h>
+	"constants.h"
+	"menu.h"
+
+1742978567 source:d:\mygame\item.cpp
+	"Item.h"
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	<iostream>
+	"constants.h"
+	<SDL_image.h>
+
+1742833643 d:\mygame\item.h
+	<SDL.h>
+	<vector>
+	"map.h"
+	"Character.h"
+
+1742976305 source:d:\mygame\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"map.h"
+	"Character.h"
+	"boom.h"
+	"enemy.h"
+	"Item.h"
+	"menu.h"
+	"constants.h"
+	"music.h"
+	<iostream>
+	<vector>
+	"game_logic.h"
+
+1743061798 d:\mygame\menu.h
+	<SDL.h>
+
+1742972474 source:d:\mygame\map.cpp
+	"map.h"
+	<SDL_image.h>
+	<queue>
+	"constants.h"
+	<iostream>
+
+1743061633 source:d:\mygame\menu.cpp
+	"menu.h"
+	"constants.h"
+	<SDL_image.h>
+	<iostream>
+
+1742917939 source:d:\mygame\game_logic.cpp
+	"game_logic.h"
+	<iostream>
+	"menu.h"
+	"constants.h"
+	"Character.h"
+	"boom.h"
+
+1742917939 d:\mygame\game_logic.h
+	<vector>
+	"constants.h"
+	"Character.h"
+	"enemy.h"
+	"item.h"
+	"boom.h"
+
+1742801100 source:d:\mygame\texture_loader.cpp
+	"texture_loader.h"
+	<SDL_image.h>
+	<iostream>
+
+1742801100 d:\mygame\texture_loader.h
+	<SDL.h>
+	<string>
+
+1742812572 d:\mygame\music.h
+	<SDL_mixer.h>
+
+1742878696 source:d:\mygame\music.cpp
+	"music.h"
+	"constants.h"
+	<iostream>
+
+1742978567 source:d:\bomber\boom.cpp
+	"boom.h"
+	"constants.h"
+	<iostream>
+	<SDL_image.h>
+	"music.h"
+	"menu.h"
+	"map.h"
+
+1742978567 d:\bomber\boom.h
+	<vector>
+	<SDL.h>
+	"map.h"
+	"enemy.h"
+	"Character.h"
+	"constants.h"
+
+1742833501 d:\bomber\map.h
+	<vector>
+	<SDL.h>
+	"constants.h"
+
+1742915044 d:\bomber\constants.h
+
+1742956709 d:\bomber\enemy.h
+	<SDL.h>
+	<vector>
+	"map.h"
+	"Character.h"
+
+1742977897 d:\bomber\character.h
+	<SDL.h>
+	<vector>
+	<string>
+	"map.h"
+	"constants.h"
+
+1742812572 d:\bomber\music.h
+	<SDL_mixer.h>
+
+1743061798 d:\bomber\menu.h
+	<SDL.h>
+
+1742969828 source:d:\bomber\character.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"Character.h"
+	"map.h"
+	<iostream>
+	"constants.h"
+
+1742741010 source:d:\bomber\collision.cpp
+	"collision.h"
+	<cmath>
+
+1742741054 d:\bomber\collision.h
+	"Character.h"
+	"boom.h"
+	<vector>
+
+1742956631 source:d:\bomber\enemy.cpp
+	"enemy.h"
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<SDL_image.h>
+	"constants.h"
+	"menu.h"
+
+1742917939 source:d:\bomber\game_logic.cpp
+	"game_logic.h"
+	<iostream>
+	"menu.h"
+	"constants.h"
+	"Character.h"
+	"boom.h"
+
+1742917939 d:\bomber\game_logic.h
+	<vector>
+	"constants.h"
+	"Character.h"
+	"enemy.h"
+	"item.h"
+	"boom.h"
+
+1742833643 d:\bomber\item.h
+	<SDL.h>
+	<vector>
+	"map.h"
+	"Character.h"
+
+1742978567 source:d:\bomber\item.cpp
+	"Item.h"
+	<cstdlib>
+	<ctime>
+	<algorithm>
+	<iostream>
+	"constants.h"
+	<SDL_image.h>
+
+1743061758 source:d:\bomber\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	"map.h"
+	"Character.h"
+	"boom.h"
+	"enemy.h"
+	"Item.h"
+	"menu.h"
+	"constants.h"
+	"music.h"
+	<iostream>
+	<vector>
+	"game_logic.h"
+
+1742972474 source:d:\bomber\map.cpp
+	"map.h"
+	<SDL_image.h>
+	<queue>
+	"constants.h"
+	<iostream>
+
+1743061633 source:d:\bomber\menu.cpp
+	"menu.h"
+	"constants.h"
+	<SDL_image.h>
+	<iostream>
+
+1742878696 source:d:\bomber\music.cpp
+	"music.h"
+	"constants.h"
+	<iostream>
+
+1742801100 source:d:\bomber\texture_loader.cpp
+	"texture_loader.h"
+	<SDL_image.h>
+	<iostream>
+
+1742801100 d:\bomber\texture_loader.h
+	<SDL.h>
+	<string>
+
