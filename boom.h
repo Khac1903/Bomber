@@ -46,7 +46,6 @@ void updateBombs(std::vector<Bomb>& bombs,
  // Cập nhật trạng thái bom
 
 void renderBombs(SDL_Renderer* renderer, const std::vector<Bomb>& bombs);       // Hiển thị bom trên màn hình
-void renderBombExplosion(SDL_Renderer* renderer, int x, int y);                 // Hiển thị hiệu ứng nổ bom tại vị trí
-void renderBombRange(SDL_Renderer* renderer, const Bomb& bomb, const std::vector<std::vector<TileType>>& map, int mapRows, int mapCols); // Hiển thị phạm vi nổ bom
+
 
 #endif // BOOM_H
